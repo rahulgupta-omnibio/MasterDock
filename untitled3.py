@@ -1373,7 +1373,6 @@ Install OpenBabel and implement a Python helper function to convert PDB and SDF 
 
 # Install OpenBabel command-line tools
 
-!apt-get install -y --allow-unauthenticated openbabel > /dev/null
 print("OpenBabel installed successfully.")
 
 import sys
