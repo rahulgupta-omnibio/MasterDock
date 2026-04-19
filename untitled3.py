@@ -68,8 +68,6 @@ The previous code failed because the `streamlit` library was not installed. I ne
 
 """
 
-!pip install streamlit
-
 """**Reasoning**:
 The `streamlit` library has been successfully installed in the previous step. Now I will re-execute the original Streamlit application code, which sets up the basic UI structure with file uploaders and placeholders, as outlined in the subtask instructions.
 
