@@ -1,0 +1,8 @@
+streamlit
+py3Dmol
+biopython
+rdkit-pypi
+pandas
+numpy
+pdbfixer
+openmm
