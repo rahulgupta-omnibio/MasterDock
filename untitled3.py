@@ -1376,7 +1376,7 @@ Install OpenBabel and implement a Python helper function to convert PDB and SDF 
 print("OpenBabel installed successfully.")
 
 import sys
-!{sys.executable} -m pip install pdbfixer
+
 print("PDBFixer installed successfully.")
 
 from pdbfixer import PDBFixer
