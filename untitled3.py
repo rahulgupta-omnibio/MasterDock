@@ -2602,7 +2602,7 @@ This file lists the Python packages required to run your Streamlit application.
 streamlit
 py3Dmol
 biopython
-rdkit-pypi
+rdkit
 pandas
 pdbfixer
 openmm
