@@ -126,7 +126,6 @@ The Streamlit application code has been successfully executed, demonstrating the
 """
 
 import sys
-!{sys.executable} -m pip install biopython rdkit
 
 # Note: RDKit is often pre-installed in Colab, but explicit installation ensures it's available.
 # Biopython needs to be installed.
