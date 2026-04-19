@@ -138,15 +138,6 @@ The necessary libraries (`biopython` and `rdkit`) have been successfully install
 
 ## Parse Molecular Files (PDB, SDF)
 
-### Subtask:
-
-
-#### Instructions:
-1.  **Install necessary libraries**: If not already installed, install `Biopython` and `RDKit`. (This was done in the previous step, so we will skip this instruction in the code for this step and proceed to parsing.)
-2.  **PDB Parsing**: When a PDB file is uploaded, use `Biopython.PDB` to parse the file and extract information such as the structure, model, chain, residue, and atom details.
-3.  **SDF Parsing**: When an SDF file is uploaded, use `RDKit.Chem` to parse the file and extract molecular information, such as the number of atoms, bonds, and molecular weight.
-4.  **Display Parsed Information**: Display a summary of the parsed information for both PDB and SDF files in the Streamlit application.
-
 """## Test Error Handling with Invalid Files
 
 To verify the error handling implemented in the `parse_pdb` and `parse_sdf` functions, we will create dummy invalid PDB and SDF content. The `parse_pdb` function should raise a `PDBConstructionException` for invalid PDB content, and `parse_sdf` should return an empty list or handle errors for malformed SDF content, as designed. This test will demonstrate these error-handling mechanisms outside the full Streamlit application context.
