@@ -68,6 +68,8 @@ The previous code failed because the `streamlit` library was not installed. I ne
 
 """
 
+!pip install streamlit
+
 """**Reasoning**:
 The `streamlit` library has been successfully installed in the previous step. Now I will re-execute the original Streamlit application code, which sets up the basic UI structure with file uploaders and placeholders, as outlined in the subtask instructions.
 
@@ -2611,6 +2613,24 @@ numpy
 
 ### Subtask:
 Update the Streamlit application code to call the 2D drawing helper and display the resulting images using `st.image` or `st.write` within the '2D Interaction Visualization' section.
+
+### Steps to Deploy Your Streamlit Application:
+
+1.  **Copy the Application Code**: Go to cell `8bbeb400` in this notebook. Copy the *entire content* of that cell.
+2.  **Create a New File**: On your local machine, create a new text file and name it `streamlit_app.py`.
+3.  **Paste the Code**: Paste the copied content from cell `8bbeb400` into your `streamlit_app.py` file and save it.
+4.  **Install Dependencies Locally**: Ensure you have all the necessary libraries installed in your local Python environment where you plan to run the app. You can use the `requirements.txt` generated earlier (cell `2c2520e8`) to install them:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    Also, ensure `openbabel` and `vina` executables are installed and accessible in your system's PATH.
+5.  **Run the Streamlit App**: Open your terminal or command prompt, navigate to the directory where you saved `streamlit_app.py`, and run the following command:
+    ```bash
+    streamlit run streamlit_app.py
+    ```
+    This will launch your Streamlit application in your web browser.
+
+By following these steps, your `streamlit_app.py` file will only contain the application logic and will be free of the environment setup commands that are causing deployment issues.
 
 **Reasoning**:
 The previous code already includes all the necessary components for the Streamlit application, including the placeholder for 2D interaction visualization. I will now explicitly update cell `8bbeb400` to integrate the `render_molecule_2d` function and display the 2D molecular images in the designated section. This completes the integration of 2D visualization as outlined in the subtask.
