@@ -1,8 +1,8 @@
 streamlit
 py3Dmol
 biopython
-rdkit-pypi
+rdkit
 pandas
-numpy
 pdbfixer
 openmm
+numpy
