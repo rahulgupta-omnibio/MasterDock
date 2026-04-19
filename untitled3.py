@@ -531,8 +531,6 @@ The previous attempt to create a subtask definition failed because it was incorr
 
 ## Display Docking Scores
 
-### Subtask:
-Implement functionality to display placeholder or simulated docking scores within the Streamlit application. This will involve creating a section to present hypothetical docking results, preparing the UI for future integration with actual docking software output.
 
 """**Reasoning**:
 The previous attempt to create a subtask definition failed because it was incorrectly placed in a python code block. I will correct this by generating a text cell with `cell_type: "markdown"` to properly define the subtask 'Display Docking Scores'.
