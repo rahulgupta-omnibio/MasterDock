@@ -367,7 +367,7 @@ The first instruction is to install the `py3Dmol` library. I will use `!pip inst
 """
 
 import sys
-!{sys.executable} -m pip install py3Dmol
+
 
 """**Reasoning**:
 I need to provide the complete Streamlit application code that includes all previously established functionalities (basic structure, file uploaders, PDB/SDF parsing) and integrate the new `py3Dmol` interactive 3D visualization as per the instructions. This ensures a fully functional application that meets the subtask requirements.
