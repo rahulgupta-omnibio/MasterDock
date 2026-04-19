@@ -139,7 +139,7 @@ The necessary libraries (`biopython` and `rdkit`) have been successfully install
 ## Parse Molecular Files (PDB, SDF)
 
 ### Subtask:
-Implement functionality to parse uploaded PDB and SDF files using appropriate Python libraries (e.g., `Biopython` for PDB, `RDKit` for SDF). This will involve reading the file content and extracting relevant molecular information.
+
 
 #### Instructions:
 1.  **Install necessary libraries**: If not already installed, install `Biopython` and `RDKit`. (This was done in the previous step, so we will skip this instruction in the code for this step and proceed to parsing.)
